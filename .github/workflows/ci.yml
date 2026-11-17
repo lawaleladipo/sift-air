@@ -1,0 +1,22 @@
+name: SIFT-AIR CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  guardrails-and-linters:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run deterministic redactor, DOCX/PDF parser, and 7-surface pre-flight linter tests
+        run: |
+          node --experimental-strip-types --test tests/siftAirGuardrails.test.ts

@@ -1,0 +1,5 @@
+app_name,category,sanction_status,notes
+Google Workspace,Cloud Productivity,SANCTIONED,Enterprise SSO enforced
+Slack,Communication,SANCTIONED,Enterprise Grid
+Mega.nz,Cloud Storage,UNSANCTIONED,High DLP exfiltration risk
+Personal Dropbox,Cloud Storage,UNSANCTIONED,Block via SASE policy

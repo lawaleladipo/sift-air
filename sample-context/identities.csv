@@ -1,0 +1,4 @@
+email,employee_id,department,operating_scope,status,termination_date,on_leave
+alex.rivera@example-corp.com,EMP-1042,Platform Engineering,Core Banking / Prod,ACTIVE,,false
+jordan.chen@example-corp.com,EMP-1098,Data Infrastructure,Cloud Platform,EXITED,2026-04-02,false
+samira.patel@example-corp.com,EMP-1120,Corporate IT,Corporate IT,ACTIVE,,true

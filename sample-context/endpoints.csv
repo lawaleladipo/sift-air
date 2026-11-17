@@ -1,0 +1,3 @@
+hostname,serial_number,assigned_user,edr_status,sase_status,disk_encrypted,local_admin
+CORP-LAPTOP-042,SN-99281-AX,alex.rivera@example-corp.com,ACTIVE,ACTIVE,true,false
+CORP-LAPTOP-099,SN-77410-JC,jordan.chen@example-corp.com,STALE,UNMANAGED,true,true

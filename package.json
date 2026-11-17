@@ -1,0 +1,35 @@
+{
+  "name": "sift-air",
+  "version": "1.0.0",
+  "description": "Zero-Retention DFIR, Threat Hunting & Multi-Platform Detection-as-Code Workbench (YARA-L 2.0, CrowdStrike Falcon CQL/IOA/IOC, Wiz Rego/KQL/Graph)",
+  "license": "MIT",
+  "author": "Olawale Oladipo <lawaleladipo@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lawaleladipo/sift-air.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev:server": "node server/index.ts",
+    "dev:web": "vite",
+    "build": "tsc --noEmit && vite build",
+    "start": "node server/index.ts",
+    "test": "node --test tests/siftAirGuardrails.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "express": "^5.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}

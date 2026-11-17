@@ -1,0 +1,4 @@
+project_id,product_name,environment,operating_scope,tier
+acme-prod-01,Settlement Core API,production,Core Banking / Prod,tier-0
+acme-k8s-shared,Shared Container Platform,production,Cloud Platform,tier-1
+acme-secops-01,Security Telemetry Hub,production,Corporate IT,tier-0
